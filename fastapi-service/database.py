@@ -1,6 +1,6 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 
-MONGO_URI = "mongodb://localhost:27017/digital-wallet-system"  # Remove extra slash
+MONGO_URI = "mongodb://mongodb:27017/digital-wallet-system"  # Remove extra slash
 client = AsyncIOMotorClient(MONGO_URI)
 
 # Select the correct database
